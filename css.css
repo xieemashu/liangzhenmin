@@ -1,0 +1,48 @@
+@charset "utf-8";
+*{ margin:0; padding:0;}
+a{ text-decoration:none;}
+li{list-style-type:none;}
+body{ background:url(../images/body_bg.jpg) top center; background-attachment:fixed;font-size:14px;font-family:arial;}
+/*头部*/
+.head{width:1100px;   margin:auto;background-color:rgba(255,255,255,0.8);}
+.nav{width:1100px;height: 70px;margin: auto;background: #b7275a;padding-top:10px;}
+.nav li{ float:left;margin-left:120px; }
+.nav li a{font-size:20px; color:#ffffff; line-height:70px; }
+.nav li a:hover{ color:#ffffff; text-decoration:none; font-weight:bold;}
+.banner{width:1100px;height:400px;margin:0 auto;clear:both;}
+/*中间内容*/
+.main{width:1000px;padding:50px;overflow:hidden;margin:auto; background-color:rgba(255,255,255,0.8);overflow:hidden;}
+.main_left{width:230px; height:auto; float:left;border-right:#121244 dotted 1px;padding-right:10px;}
+.main_left .pic{width:190px;height:190px;}
+.main_left .pic img{width:190px;height:190px;display:block;border-radius:50%;}
+.name{width:190px;margin:0 auto; text-align:left; font-size:24px;line-height:60px; font-weight:bold;color:#191844; font-family:"微软雅黑"; text-indent:1.5em;}
+.left_nav{width:190px; height:auto; margin-top:30px;}
+.left_nav li{ background:url(../images/d1.png) left center no-repeat;padding-left:30px;line-height:36px;margin-top:20px;font-size:16px; color:#666;}
+.main_right{width:720px; height:auto; float:left;margin-left:38px;} 
+.main_right h2{font-size:22px; color:#333; line-height:36px;text-align:center;margin-bottom:20px;}
+.main_right .jianjie p{font-size:16px; color:#666; line-height:2;text-indent:32px;}
+
+/*我的爱好*/
+.aihao li{height:360px;padding:15px 0;}
+.aihao li img{width:200px;height:150px;float:left;margin-right:20px;}
+.aihao li h3{margin-bottom:10px;}
+.aihao li p{font-size:16px;}
+.cook{width:720px;height:157px;}
+/*个人介绍*/
+.fengjing img{display:block;width:360px;height:240px;float:left;margin:10px;}
+/*我的相册*/
+.xiangce{width:720px;margin:auto;}
+.xiangce li{width:220px;float:left;margin:10px;}
+.xiangce li img{width:220px;height:220px;}
+.xiangce li p{text-align:center;}
+/*留言*/
+.liuyan{width:500px;margin:auto;}
+.liuyan p{line-height:30px;overflow:hidden;margin-top:20px;font-size:14px; font-family:"微软雅黑"}
+.liuyan p span{display:block;width:100px;text-align:right;float:left;}
+.liuyan p input{display:block;width:398px;height:30px;border:none;float:left;border:#f79cb6 solid 1px;border-radius:10px;}
+.liuyan p textarea{display:block;width:398px;height:200px;border:none;float:left;border:#f79cb6 solid 1px;border-radius:10px;}
+.liuyan .btn{display:block;width:400px;height:50px;line-height:50px; font-size:18px;float:left;border:none;background:#b7275a;color:#fff;margin-top:30px;margin-left:100px;cursor:pointer;border-radius:10px;}
+.liuyan .btn:hover{background:#b7275a;}
+/*底部*/
+.foot{width:1100px; padding-top:20px;padding-bottom:20px; margin:auto; background:#b7275a;clear:both;}
+.foot p{font-size:16px;color:#fff; line-height:24px; text-align:center;}
